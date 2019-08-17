@@ -7,22 +7,33 @@ public class GameManager : MonoBehaviour
     public PlayerStats playerStats;
     public Text healthText;
     public Text gameOverText;
+    public bool gameOver;
     // Start is called before the first frame update
     void Start()
     {
         playerStats.health = 100;
+        gameOver = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(playerStats.health <= 0)
-        {
-            gameOverText.text = " GameOver ";
-        }
-        else
+        //if (playerStats.health >= 0)
+        //{
+        //    healthText.text = "Health : " + playerStats.health;
+        //}
+        //if (playerStats.health <= 0)
+        //{
+        //    gameOverText.text = " GameOver ";
+        //}
+        if (gameOver  == false)
         {
             healthText.text = "Health : " + playerStats.health;
+        }
+        if (playerStats.health <= 0)
+        {
+            gameOver = true;
+            gameOverText.text = " GameOver ";
         }
     }
 
@@ -36,6 +47,8 @@ public class GameManager : MonoBehaviour
     }
     public void Restart()
     {
+        gameOver = false;
+        gameOverText.text = " ";
         playerStats.health = 100;
     }
 
