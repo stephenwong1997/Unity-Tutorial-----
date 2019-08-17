@@ -1,0 +1,25 @@
+# unity ignore dir
+[Bb]in/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+LINGHK_RPG_Static_Dynamic/Assets/StaticFiles
+LINGHK_RPG_Static_Dynamic/.vs
+/.vs/
+vs./
+
+ 
+# unity ignore file
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.meta
+*.tmp
+
+
+ 
+# need include the meta of file
+!*.*.meta
+
