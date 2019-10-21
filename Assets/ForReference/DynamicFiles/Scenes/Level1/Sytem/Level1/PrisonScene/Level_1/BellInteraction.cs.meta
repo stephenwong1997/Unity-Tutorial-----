@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 518fa249e6677b948bbc43aa7fb14d97
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - interactionCanvas: {fileID: 8936627131345414183, guid: c4f8819982e962641b8bc479bdd2625f,
+      type: 3}
+  - triggerPathController: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

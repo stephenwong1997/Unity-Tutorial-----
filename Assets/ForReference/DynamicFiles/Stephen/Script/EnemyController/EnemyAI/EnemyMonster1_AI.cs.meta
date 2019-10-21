@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 812e6da52e78ddf4f8431171bd54a43c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - followTarget: {instanceID: 0}
+  - DissolveMaterial: {fileID: 2100000, guid: 8385f0e712bb65b428cf18e6ab1c29c6, type: 2}
+  - particalOfDeath: {fileID: 5284939389275510618, guid: 5f1468b71e4fcf44da25375819e2c8d1,
+      type: 3}
+  - bloodBar: {fileID: 6206636366820596899, guid: 1c14d6981c723c24093718a1117800e0,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
